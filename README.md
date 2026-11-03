@@ -61,3 +61,12 @@ mi-portafolio/
 │   └── documents/
 └── README.md
 ```
+
+
+## Versión 2 - Habilidades y contacto
+- Filtros de 20 habilidades en 5 categorías (HTML/CSS/JavaScript puro).
+- Barras y porcentajes ilustrativos; edítalos en `index.html` según tu nivel real.
+- Contacto por correo y teléfono con botones para copiar.
+- Acción rápida a WhatsApp: `https://wa.me/525617455065`.
+- Compatible con GitHub Pages.
+- Para desplegar: sube el contenido de esta carpeta a la raíz del repositorio, activa Settings > Pages > Deploy from a branch > main > /(root).
