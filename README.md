@@ -74,3 +74,8 @@ mi-portafolio/
 
 ## Versión 4
 Se agregaron las secciones **Servicios especializados** (8 tarjetas) y **Aprendizaje continuo**, con énfasis en análisis de datos. Son áreas de interés y aprendizaje, no certificaciones ni servicios profesionales acreditados.
+
+
+## Tema visual (V5)
+
+Paleta 9: Azul océano y gris perla. Se modificaron exclusivamente los colores en `css/styles.css`; se conservaron el HTML, JavaScript, estructura y funcionalidades de la versión 4.

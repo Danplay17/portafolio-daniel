@@ -42,3 +42,74 @@
 @media(max-width:1000px){.services-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.nav-links{gap:15px;font-size:12px}}
 @media(max-width:760px){.learning-grid{grid-template-columns:1fr}.nav-links{gap:12px}}
 @media(max-width:640px){.services-grid{grid-template-columns:1fr}.learning-feature{padding:26px}.learning-feature h3{font-size:24px}}
+
+
+/* V5 — Paleta 9: Azul océano y gris perla. Cambios exclusivamente cromáticos. */
+:root{--bg:#EAF1F5;--surface:#FFFFFF;--surface-2:#F4F8FA;--text:#173B56;--muted:#587182;--line:rgba(23,59,86,.16);--blue:#2874A6;--cyan:#2874A6;--purple:#526E9C;--green:#16785E}
+body{background:var(--bg);color:var(--text)}
+.site-header{background:rgba(255,255,255,.93)}
+.nav-links{color:#365B74}.nav-links a:hover,.social-link:hover{color:#2874A6}
+.brand-mark{background:linear-gradient(135deg,#2874A6,#64B5D9);color:#FFFFFF}
+.menu-toggle{color:#173B56}.menu-toggle span{background:#173B56}
+.skip-link:focus{background:#FFFFFF;color:#173B56}
+.eyebrow,.section-index{color:#2874A6}.status-dot{background:#168B75;box-shadow:0 0 14px #168B7540}
+.gradient-text{background:linear-gradient(100deg,#173B56,#2874A6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-lead,.about-details p,.section-subtitle{color:#587182}
+.hero-role{color:#2874A6}.hero-meta,.meta-divider{color:#587182}.meta-divider{background:#9AB0BE}
+.button-primary{background:linear-gradient(110deg,#2874A6,#347FAE);color:#FFFFFF}
+.button-secondary{color:#173B56;border-color:#AFC4D1}
+.orbit{border-color:rgba(40,116,166,.19)}.orbit-two{border-color:rgba(100,181,217,.25)}
+.profile-card{background:linear-gradient(145deg,#FFFFFF,#F3F8FB);border-color:#C6D8E2;box-shadow:0 30px 80px #173B561B}
+.mini-label,.card-code,.card-dots{color:#587182}
+.avatar-placeholder{background:linear-gradient(140deg,#2874A6,#64B5D9);color:#FFFFFF;box-shadow:0 10px 30px #2874A630}
+.profile-card>p,.card-tags span{color:#587182}.card-line{background:linear-gradient(90deg,#2874A6,#64B5D9)}
+.floating-chip{background:#FFFFFF;box-shadow:0 15px 35px #173B561A}.floating-chip small{color:#587182}.chip-icon{color:#2874A6}
+.about-section,.projects-section,.services-section{background:#F5F9FB;border-top-color:#D7E3EA;border-bottom-color:#D7E3EA}
+.muted,.about-facts span{color:#587182}.about-intro,.about-facts strong{color:#173B56}
+.skill-card,.service-card{background:linear-gradient(145deg,#FFFFFF,#F6FAFC);border-color:#D2E1E9}
+.skill-card:hover,.project-card:hover{border-color:#64B5D9}
+.skill-icon,.service-icon{background:#E3F1F8;color:#2874A6}
+.skill-card p,.service-card p{color:#587182}
+.skill-tags span,.project-stack span{background:#E7F1F6;color:#285A7A}
+.project-card{background:#FFFFFF}
+.project-info .project-category,.project-info .project-type{color:#2874A6}
+.project-info p,.projects-note,.project-status{color:#587182}
+.project-links a{color:#205D85}.project-links a span{color:#2874A6}
+.art-blue{background:radial-gradient(circle at 50% 40%,#83B7D6,#D9EAF3 70%)}
+.art-violet{background:radial-gradient(circle at 50% 50%,#B7C9E6,#E8EFF8 70%)}
+.art-green{background:radial-gradient(circle at 50% 50%,#9CCFC8,#E2F2EF 70%)}
+.art-window{background:#F7FAFC;border-color:#8BB7E9A0;box-shadow:0 20px 50px #173B5620}
+.window-bar{border-bottom-color:#C9DBE6}.window-bar i{background:#7E9CB0}
+.mock-label{color:#2874A6}.mock-line{background:#A1BCD0}.mock-line.long{background:#6796B5}
+.mock-row b{background:#D1E5F0}.mock-row b:nth-child(2){background:#B8D6E6}.mock-row b:nth-child(3){background:#C3DFEB}
+.terminal-art{background:#E3F2F0;border-color:#A6D3C9;color:#176C58;box-shadow:0 20px 50px #173B561A}
+.terminal-art>span:nth-child(2){color:#275C50}.terminal-bars i{background:#83BDB1}
+.contact-panel{background:radial-gradient(circle at 100% 0%,#D8ECF6 0,transparent 45%),linear-gradient(135deg,#FFFFFF,#F3F8FB);border-color:#D2E1E9}
+.contact-panel p,.social-link,.back-top,.footer-inner p{color:#587182}.social-link span{color:#2874A6}
+.nav-links.open{background:#FFFFFF}
+.skills-disclaimer{color:#587182}.skills-disclaimer code{color:#2874A6}
+.skill-filter{background:#FFFFFF;border-color:#C9D9E3;color:#45687D}
+.skill-filter:hover,.skill-filter:focus-visible{border-color:#2874A6;color:#173B56}
+.skill-filter.active{background:#DDEEF8;border-color:#2874A6;color:#185B85;box-shadow:0 0 0 1px #2874A622}
+.filter-count{background:#EAF1F5;color:#47677B}.skill-filter.active .filter-count{background:#C5E2F2;color:#185B85}
+.competency-card{background:#FFFFFF;border-color:#D1E0E9}
+.competency-card:hover{border-color:#64B5D9}
+.competency-icon{background:#E8F3F9;border-color:#C8DCE8;color:#2874A6}
+.competency-level{background:#E5EAF7;color:#445D96}
+.competency-card p,.competency-metric,.skills-empty{color:#587182}
+.competency-metric strong{color:#173B56}
+.competency-track{background:#DCE9F0}.competency-track span{background:linear-gradient(90deg,#2874A6,#64B5D9)}
+.contact-detail,.quick-actions{background:#FFFFFF;border-color:#D1E0E9}
+.contact-detail-icon{background:#E0F0F8;color:#2874A6}
+.contact-detail-label,.quick-actions p{color:#587182}
+.contact-detail a:hover{color:#2874A6}
+.copy-contact{background:#EAF3F8;border-color:#C8DCE8;color:#205A7F}
+.copy-contact:hover{border-color:#2874A6}
+.quick-actions{background:radial-gradient(circle at 100% 0%,#E0F0F8,transparent 60%),#FFFFFF}
+.button-whatsapp{background:#177C60;color:#FFFFFF}.button-whatsapp:hover{background:#126C54}
+.learning-feature{background:radial-gradient(circle at top right,#D8ECF6,transparent 65%),#FFFFFF;border-color:#C8DCE8}
+.learning-kicker{color:#2874A6}.learning-feature p,.learning-steps p{color:#587182}
+.learning-tags span{border-color:#BDD6E4;color:#285A7A}
+.learning-steps article{background:#FFFFFF;border-color:#D1E0E9}.learning-number{color:#2874A6}
+.service-card:hover{border-color:#64B5D9}
+@media(max-width:640px){.nav-links{background:#FFFFFF}}
