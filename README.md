@@ -70,3 +70,7 @@ mi-portafolio/
 - Acción rápida a WhatsApp: `https://wa.me/525617455065`.
 - Compatible con GitHub Pages.
 - Para desplegar: sube el contenido de esta carpeta a la raíz del repositorio, activa Settings > Pages > Deploy from a branch > main > /(root).
+
+
+## Versión 4
+Se agregaron las secciones **Servicios especializados** (8 tarjetas) y **Aprendizaje continuo**, con énfasis en análisis de datos. Son áreas de interés y aprendizaje, no certificaciones ni servicios profesionales acreditados.

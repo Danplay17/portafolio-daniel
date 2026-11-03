@@ -18,3 +18,27 @@
 
 /* V3: rol profesional como subtítulo discreto */
 .hero-role{font-family:var(--font-display);font-size:clamp(19px,2.2vw,26px);font-weight:600;letter-spacing:-.025em;color:#83dce7;margin:-9px 0 19px;line-height:1.35}
+
+/* V4: Servicios especializados y aprendizaje continuo */
+.services-section{background:#0e1727;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.services-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}
+.service-card{padding:27px 22px;border:1px solid #2a3b51;border-radius:16px;background:linear-gradient(145deg,#1c2a3e,#142135);transition:transform .2s,border-color .2s}
+.service-card:hover{transform:translateY(-4px);border-color:#43bcd0}
+.service-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:12px;background:#0e2437;color:#55d5e8;font-size:25px;margin-bottom:21px}
+.service-card h3{font:600 18px/1.3 var(--font-display);margin:0 0 10px}
+.service-card p{color:#9fb0c7;font-size:13px;line-height:1.7;margin:0}
+.learning-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.learning-feature{padding:37px;border-radius:19px;background:radial-gradient(circle at top right,#204b62,transparent 65%),#17283d;border:1px solid #31516a}
+.learning-kicker{font:700 11px var(--font-display);letter-spacing:.16em;color:#70dfeb}
+.learning-feature h3{font:600 29px/1.2 var(--font-display);margin:20px 0}
+.learning-feature p,.learning-steps p{color:#a6b7cb;font-size:14px}
+.learning-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:30px}
+.learning-tags span{border:1px solid #3c6579;border-radius:999px;padding:6px 12px;font-size:12px;color:#c4e5ef}
+.learning-steps{display:grid;gap:12px}
+.learning-steps article{display:flex;gap:17px;padding:19px 22px;background:#182438;border:1px solid #2b3a50;border-radius:14px}
+.learning-number{color:#6bdce8;font:700 18px var(--font-display)}
+.learning-steps h3{margin:0 0 5px;font:600 17px var(--font-display)}
+.learning-steps p{margin:0;line-height:1.5}
+@media(max-width:1000px){.services-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.nav-links{gap:15px;font-size:12px}}
+@media(max-width:760px){.learning-grid{grid-template-columns:1fr}.nav-links{gap:12px}}
+@media(max-width:640px){.services-grid{grid-template-columns:1fr}.learning-feature{padding:26px}.learning-feature h3{font-size:24px}}
