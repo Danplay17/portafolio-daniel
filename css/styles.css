@@ -43,7 +43,6 @@
 @media(max-width:760px){.learning-grid{grid-template-columns:1fr}.nav-links{gap:12px}}
 @media(max-width:640px){.services-grid{grid-template-columns:1fr}.learning-feature{padding:26px}.learning-feature h3{font-size:24px}}
 
-
 /* V5 — Paleta 9: Azul océano y gris perla. Cambios exclusivamente cromáticos. */
 :root{--bg:#EAF1F5;--surface:#FFFFFF;--surface-2:#F4F8FA;--text:#173B56;--muted:#587182;--line:rgba(23,59,86,.16);--blue:#2874A6;--cyan:#2874A6;--purple:#526E9C;--green:#16785E}
 body{background:var(--bg);color:var(--text)}
